@@ -1,4 +1,64 @@
+.sub-skills{
+    max-width: 65vw;
+}
 
+.skills{
+    max-width: 60vw;
+}
+
+.box{
+    padding-bottom: 10px;
+}
+
+.timeline
+{
+    list-style-type: none;
+    position: relative;
+}
+
+.timeline:before
+{
+    content: ' ' ;   /*STAR*/
+    background: #555;
+    display: inline-block;
+    position:absolute;
+    left: 25px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;    /*STAR*/
+}
+
+.timeline li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left:20px; */
+    background: #fff;
+}
+
+.timeline li h4{
+    background: #000;
+    padding: 5px 0 5px 20px;
+    color:#fff;
+    font-size: 15px;
+    width: 30%;
+}
+
+.timeline li:before
+{
+    content: ' ' ;   /*STAR*/
+    background: #fff;
+    display: inline-block;
+    position:absolute;
+    border-radius: 50%;
+    border:3px solid black;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;    /*STAR*/
+}
+
+
+/* 
 .bg{
     background-image: url("../Images/images.jpg");
     width: 100%;
@@ -7,53 +67,55 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-}
+} */
 
-#dp{
+/* #dp{
     border-radius: 50%;
     width: 25vw;
     height: 45vh;    
-}
+} */
 
-#name{
+/* #name{
     font-size: 120px;
     font-family: 'Tangerine', serif;
     color: darkblue;
     font-weight: bold;
-}
+} */
 
-.head{
+/* .head{
     position: relative; 
     padding-top: 90px; 
     padding-bottom: 6%; 
     overflow: hidden;  
     background-color: rgba(255, 255, 255, 0.8); 
     width: 100%;
-}
+} */
 
-.image{
+/* .image{
     text-align: center;
-}
+} */
 
-.name{
+/* .name{
     padding-left: 30px; 
     padding-top: 30px;
     text-align: center;
-}
+} */
 
-#profession{
+/* #profession{
     font-size: 75px;
     font-family: 'Tangerine', serif;
     color:darkblue;
     padding-left: 10px;
     font-weight: bold;
-}
+} */
 
-.about{
+/* .about{
     text-align: center;
     font-size: 28px;
     color: black;
-}
+} */
+
+
 
 /* nav{
     position: sticky;

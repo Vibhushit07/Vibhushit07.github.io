@@ -11,11 +11,36 @@ body{
     color: #FFF;
 }
 
-#Tech-Skills span{
+#bg-img{
+    background: url("../Images/images.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+#Education span{
     padding: 10px 20px 10px 20px;
 }
 
-#Tech-Skills hr{
+#Education hr{
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#Skills span{
+    padding: 10px 20px 10px 20px;
+}
+
+#Skills hr{
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#Certificates span{
+    padding: 10px 20px 10px 20px;
+}
+
+#Certificates hr{
     border-width: 2px;
     margin-top: 6px;
 }
