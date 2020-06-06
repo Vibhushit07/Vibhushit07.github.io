@@ -53,6 +53,20 @@
     z-index: 1;    /*STAR*/
 }
 
+.project li:before
+{
+    content: ' ' ;   /*STAR*/
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #0275d8;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;    /*STAR*/
+}
+
 .project li h4{
     background: #0275d8;
     padding: 5px 0 5px 20px;
@@ -60,6 +74,32 @@
     font-size: 15px;
     width: 98%;
 }
+
+.project
+{
+    list-style-type: none;
+    position: relative;
+}
+
+.project:before
+{
+    content: ' ' ;   /*STAR*/
+    background: #5bc0de;
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;    /*STAR*/
+}
+
+.project li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left:20px; */
+    background: #fff;
+}
+
 
 /*.bg{
     background-image: url("../Images/images.jpg");
