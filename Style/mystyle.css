@@ -117,3 +117,13 @@ body{
 .box{
     padding-bottom: 10px;
 }
+
+.anchor{
+    text-decoration: none;
+    color: #fff;
+}
+
+.anchor:hover{
+    text-decoration: none;
+    color: #fff;
+}
