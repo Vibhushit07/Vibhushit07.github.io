@@ -1,9 +1,8 @@
-
-body{
+body {
     background: #CCC;
 }
 
-#Header a:hover{
+#Header a:hover {
     color: #FFF;
     cursor: pointer;
 }
@@ -23,94 +22,102 @@ body{
     color: #FFF;
 }
 
-#bg-img{
+#bg-img {
     background: url("../Images/bg.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 400px;
 }
 
-#Education span{
+
+/* #Experience span {
     padding: 10px 20px 10px 20px;
 }
 
-#Education hr{
+#Experience hr {
+    border-width: 2px;
+    margin-top: 6px;
+} */
+
+#Education span {
+    padding: 10px 20px 10px 20px;
+}
+
+#Education hr {
     border-width: 2px;
     margin-top: 6px;
 }
 
-#Tech-Skills span{
+#Tech-Skills span {
     padding: 10px 20px 10px 20px;
 }
 
-#Tech-Skills hr{
+#Tech-Skills hr {
     border-width: 2px;
     margin-top: 6px;
 }
 
-#Soft-Skills span{
+#Soft-Skills span {
     padding: 10px 20px 10px 20px;
 }
 
-#Soft-Skills hr{
+#Soft-Skills hr {
     border-width: 2px;
     margin-top: 6px;
 }
 
-#Project span{
+#Project span {
     padding: 10px 20px 10px 20px;
 }
 
-#Project hr{
+#Project hr {
     border-width: 2px;
     margin-top: 6px;
 }
 
-#Certificates span{
+#Certificates span {
     padding: 10px 20px 10px 20px;
 }
 
-#Certificates hr{
+#Certificates hr {
     border-width: 2px;
     margin-top: 6px;
 }
 
-.timeline
-{
+.timeline {
     list-style-type: none;
     position: relative;
 }
 
-.timeline:before
-{
-    content: ' ' ;   /*STAR*/
-     background: #5bc0de;
+.timeline:before {
+    content: ' ';
+    /*STAR*/
+    background: #5bc0de;
     display: inline-block;
     position: absolute;
     left: 25px;
     width: 2px;
     height: 100%;
-    z-index: 1;    
+    z-index: 1;
 }
 
-.timeline li{
+.timeline li {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left:20px;
+    margin-left: 20px;
     background: #fff;
 }
 
-.timeline li h4{
+.timeline li h4 {
     background: #0275d8;
     padding: 5px 0 5px 20px;
-    color:#fff;
+    color: #fff;
     font-size: 15px;
     width: 98%;
 }
 
-.timeline li:before
-{
-    content: ' ' ;   
+.timeline li:before {
+    content: ' ';
     background: #fff;
     display: inline-block;
     position: absolute;
@@ -119,23 +126,23 @@ body{
     left: 15px;
     width: 20px;
     height: 20px;
-    z-index: 1;    
-} 
+    z-index: 1;
+}
 
-.sub-skills{
+.sub-skills {
     max-width: 65vw;
 }
 
-.box{
+.box {
     padding-bottom: 10px;
 }
 
-.anchor{
+.anchor {
     text-decoration: none;
     color: #fff;
 }
 
-.anchor:hover{
+.anchor:hover {
     text-decoration: none;
     color: #fff;
 }
